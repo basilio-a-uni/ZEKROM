@@ -13,7 +13,6 @@ Partendo da un problema di Poisson in due dimensioni, si applicano tecniche di *
 Lo scopo è:
 - generare basi ridotte che rappresentano bene il manifold delle soluzioni;
 - stimare in modo rigoroso l'errore con bound computabili;
-- valutare l'efficacia computazionale (speedup) della riduzione;
 - analizzare l'effetto della coercività;
 - includere condizioni al bordo non omogenee dipendenti dal parametro.
 
@@ -56,8 +55,7 @@ Sono stati studiati i seguenti aspetti chiave:
 * l'error estimator in funzione delle basi ridotte;
 * fissato il numero di basi, l'errore e l'estimatore in funzione di un parametro;
 * l'effetto dell'approssimazione della costanza di coercività;
-* il vantaggio computazionale in termini di speedup;
-
+* 
 ## Requisiti
 
 - Python ≥ 3.8
