@@ -58,13 +58,6 @@ Sono stati studiati i seguenti aspetti chiave:
 * l'effetto dell'approssimazione della costanza di coercività;
 * il vantaggio computazionale in termini di speedup;
 
-## Risultati (DA MODIFICARE)
-
-- Errore relativo medio: $\sim 10^{-5}$
-- Effectivity medio: vicino a $1$
-- Comportamento coerente con teoria di Céa e Kolmogorov $N$-width
-- Speedup marcato tra truth solver e online RBM
-
 ## Requisiti
 
 - Python ≥ 3.8
@@ -77,5 +70,5 @@ Il notebook è pensato per Google Colab, con installazione automatica di FEniCS 
 
 ## Riferimenti
 
-- *Certified Reduced Basis Methods* – Chapters 3–4
+- * Certifed Reduced Basis Methods for Parametrized Partial Diferential Equations* di Jan S Hesthaven, Gianluigi Rozza, Benjamin Stamm – Chapters 3–4
 
